@@ -1,0 +1,453 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red155\green0\blue211;\red0\green176\blue80;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22\par
+\par
+Day 1: \b Monday August 1st, 2016\b0\par
+Intrduction: Java, Javascript, Node js, touched on Docker, Angular js and React js 9:00 AM-10:15 AM\par
+\b Teacher environment:\b0  Unix (Apple)\par
+\b Student's machine: \b0 Windows 7\par
+From \par
+\cf1\b 10:15 AM -10:45 AM :\par
+11:00 AM - 11:30 AM\cf0\par
+Git Client: tortosie Git\b0\par
+\par
+UID: abumuinuddin\par
+PWD: Suhaib06@\par
+Git Command:\par
+----------------\par
+bsdiff\par
+rsync\par
+\par
+herad\par
+tip\par
+\par
+\cf2\b init \cf0\b0 a repo (create a new repo)\par
+\cf2\b clone \cf0\b0 repo \b A \b0 from repo \b\i B\par
+\i0 push\par
+pull\par
+remove \b0 file(s)\par
+\b hg status \b0 ()\par
+\cf1\b 12:30 PM - 1:00 pm\par
+\cf0 clone \par
+branch name\par
+tag\par
+merge\par
+file : <working directory> /hgtags\par
+branching with repos\par
+\par
+informative commands:\par
+....\par
+network access\par
+file path syntax\par
+.hgignore\par
+remaining and copying files\par
+bookmarks\par
+hooks\par
+large, binary files\par
+interop with git and subversion\par
+\cf1 1:00 pm -\par
+\par
+C:\\>git clone \cf0{\field{\*\fldinst{HYPERLINK "https://github.com/abumuinuddin/ssa4week.git"}}{\fldrslt{\ul\cf3 https://github.com/abumuinuddin/ssa4week.git}}}\cf1\f0\fs22\par
+Cloning into 'ssa4week'...\par
+warning: You appear to have cloned an empty repository.\par
+Checking connectivity... done.\par
+\par
+C:\\>cd ssa4week\par
+\par
+C:\\ssa4week>dir/p\par
+ Volume in drive C has no label.\par
+ Volume Serial Number is F4F9-65AB\par
+\par
+ Directory of C:\\ssa4week\par
+\par
+08/01/2016  01:12 PM    <DIR>          .\par
+08/01/2016  01:12 PM    <DIR>          ..\par
+               0 File(s)              0 bytes\par
+               2 Dir(s)  452,719,362,048 bytes free\par
+\par
+C:\\ssa4week>mkdir day1\par
+\par
+C:\\ssa4week>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+nothing to commit (create/copy files and use "git add" to track)\par
+\par
+C:\\ssa4week>cd day1\par
+\par
+C:\\ssa4week\\day1>touch filex\par
+'touch' is not recognized as an internal or external command,\par
+operable program or batch file.\par
+\par
+C:\\ssa4week\\day1>git add ..\par
+\par
+C:\\ssa4week\\day1>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+nothing to commit (create/copy files and use "git add" to track)\par
+\par
+C:\\ssa4week\\day1>touch file.txt\par
+'touch' is not recognized as an internal or external command,\par
+operable program or batch file.\par
+\par
+C:\\ssa4week\\day1>echo file.txt\par
+file.txt\par
+\par
+C:\\ssa4week\\day1>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+nothing to commit (create/copy files and use "git add" to track)\par
+\par
+C:\\ssa4week\\day1>git add.\par
+git: 'add.' is not a git command. See 'git --help'.\par
+\par
+Did you mean this?\par
+        add\par
+\par
+C:\\ssa4week\\day1>git add\par
+Nothing specified, nothing added.\par
+Maybe you wanted to say 'git add .'?\par
+\par
+C:\\ssa4week\\day1>git add .\par
+\par
+C:\\ssa4week\\day1>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+nothing to commit (create/copy files and use "git add" to track)\par
+\par
+C:\\ssa4week\\day1>git initial commit\par
+git: 'initial' is not a git command. See 'git --help'.\par
+\par
+C:\\ssa4week\\day1>git --help\par
+usage: git [--version] [--help] [-C <path>] [-c name=value]\par
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\par
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]\par
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\par
+           <command> [<args>]\par
+\par
+These are common Git commands used in various situations:\par
+\par
+start a working area (see also: git help tutorial)\par
+   clone      Clone a repository into a new directory\par
+   init       Create an empty Git repository or reinitialize an existing one\par
+\par
+work on the current change (see also: git help everyday)\par
+   add        Add file contents to the index\par
+   mv         Move or rename a file, a directory, or a symlink\par
+   reset      Reset current HEAD to the specified state\par
+   rm         Remove files from the working tree and from the index\par
+\par
+examine the history and state (see also: git help revisions)\par
+   bisect     Use binary search to find the commit that introduced a bug\par
+   grep       Print lines matching a pattern\par
+   log        Show commit logs\par
+   show       Show various types of objects\par
+   status     Show the working tree status\par
+\par
+grow, mark and tweak your common history\par
+   branch     List, create, or delete branches\par
+   checkout   Switch branches or restore working tree files\par
+   commit     Record changes to the repository\par
+   diff       Show changes between commits, commit and working tree, etc\par
+   merge      Join two or more development histories together\par
+   rebase     Reapply commits on top of another base tip\par
+   tag        Create, list, delete or verify a tag object signed with GPG\par
+\par
+collaborate (see also: git help workflows)\par
+   fetch      Download objects and refs from another repository\par
+   pull       Fetch from and integrate with another repository or a local branch\par
+   push       Update remote refs along with associated objects\par
+\par
+'git help -a' and 'git help -g' list available subcommands and some\par
+concept guides. See 'git help <command>' or 'git help <concept>'\par
+to read about a specific subcommand or concept.\par
+\par
+C:\\ssa4week\\day1>git commit -m 'first commit'\par
+error: pathspec 'commit'' did not match any file(s) known to git.\par
+\par
+C:\\ssa4week\\day1>git commit -m 'first commit'\par
+error: pathspec 'commit'' did not match any file(s) known to git.\par
+\par
+C:\\ssa4week\\day1>echo file.txt\par
+file.txt\par
+\par
+C:\\ssa4week\\day1>type nul > file.txt\par
+\par
+C:\\ssa4week\\day1>dir/p\par
+ Volume in drive C has no label.\par
+ Volume Serial Number is F4F9-65AB\par
+\par
+ Directory of C:\\ssa4week\\day1\par
+\par
+08/01/2016  01:28 PM    <DIR>          .\par
+08/01/2016  01:28 PM    <DIR>          ..\par
+08/01/2016  01:28 PM                 0 file.txt\par
+               1 File(s)              0 bytes\par
+               2 Dir(s)  452,715,581,440 bytes free\par
+\par
+C:\\ssa4week\\day1>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        ./\par
+\par
+nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+C:\\ssa4week\\day1>git commit -m 'first commit'\par
+error: pathspec 'commit'' did not match any file(s) known to git.\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+\par
+*** Please tell me who you are.\par
+\par
+Run\par
+\par
+  git config --global user.email "you@example.com"\par
+  git config --global user.name "Your Name"\par
+\par
+to set your account's default identity.\par
+Omit --global to set the identity only in this repository.\par
+\par
+fatal: empty ident name (for <(null)>) not allowed\par
+\par
+C:\\ssa4week\\day1>git config --global user.emal "abu_muinuddin@yahoo.com"\par
+\par
+C:\\ssa4week\\day1>git config --global user.name "Abu S Muinuddin"\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+\par
+*** Please tell me who you are.\par
+\par
+Run\par
+\par
+  git config --global user.email "you@example.com"\par
+  git config --global user.name "Your Name"\par
+\par
+to set your account's default identity.\par
+Omit --global to set the identity only in this repository.\par
+\par
+fatal: unable to auto-detect email address (got 'admin@PC57.(none)')\par
+\par
+C:\\ssa4week\\day1>\par
+C:\\ssa4week\\day1>git config --global user.email "abu_muinuddin@yahoo.com"\par
+\par
+C:\\ssa4week\\day1>git config --global user.name "Abu S Muinuddin"\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+On branch master\par
+\par
+Initial commit\par
+\par
+Untracked files:\par
+        ./\par
+\par
+nothing added to commit but untracked files present\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+On branch master\par
+\par
+Initial commit\par
+\par
+Untracked files:\par
+        ./\par
+\par
+nothing added to commit but untracked files present\par
+\par
+C:\\ssa4week\\day1>\par
+\par
+\par
+git clone\par
+git init\par
+git add .\par
+git commit -m "first commit"\par
+git push\par
+git pull\par
+\par
+2:00 PM - 5:00 PM - Basic HTML [<html>, <head>, <body> tag...]\par
+\par
+\par
+C:\\ssa4week\\day1>git add .\par
+\par
+C:\\ssa4week\\day1>git status\par
+On branch master\par
+\par
+Initial commit\par
+\par
+Changes to be committed:\par
+  (use "git rm --cached <file>..." to unstage)\par
+\par
+        new file:   file.txt\par
+\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+[master (root-commit) 3966cf6] first commit\par
+ 1 file changed, 1 insertion(+)\par
+ create mode 100644 day1/file.txt\par
+\par
+C:\\ssa4week\\day1>git push\par
+Counting objects: 4, done.\par
+Writing objects: 100% (4/4), 270 bytes | 0 bytes/s, done.\par
+Total 4 (delta 0), reused 0 (delta 0)\par
+To \cf0{\field{\*\fldinst{HYPERLINK "https://github.com/abumuinuddin/ssa4week.git"}}{\fldrslt{\ul\cf3 https://github.com/abumuinuddin/ssa4week.git}}}\cf1\f0\fs22\par
+ * [new branch]      master -> master\par
+\par
+C:\\ssa4week\\day1>type nul > example.html\par
+\par
+C:\\ssa4week\\day1>type nul > example.js\par
+\par
+C:\\ssa4week\\day1>git add .\par
+\par
+C:\\ssa4week\\day1>git commit -m "first commit"\par
+[master 189db2f] first commit\par
+ 6 files changed, 243 insertions(+)\par
+ create mode 100644 day1/RockPaperScissors.html\par
+ create mode 100644 day1/RockPaperScissors.js\par
+ create mode 100644 day1/desktop.ini\par
+ create mode 100644 day1/example.html\par
+ create mode 100644 day1/example.js\par
+ create mode 100644 day1/example2.html\par
+\par
+C:\\ssa4week\\day1>git push\par
+Counting objects: 9, done.\par
+Delta compression using up to 8 threads.\par
+Compressing objects: 100% (7/7), done.\par
+Writing objects: 100% (9/9), 2.05 KiB | 0 bytes/s, done.\par
+Total 9 (delta 1), reused 0 (delta 0)\par
+To \cf0{\field{\*\fldinst{HYPERLINK "https://github.com/abumuinuddin/ssa4week.git"}}{\fldrslt{\ul\cf3 https://github.com/abumuinuddin/ssa4week.git}}}\cf1\f0\fs22\par
+   3966cf6..189db2f  master -> master\par
+\par
+C:\\ssa4week\\day1>\par
+\cf0\par
+\par
+\par
+Day 2 - August 2nd, 2016 ---\par
+\par
+\par
+C:\\ssa4week\\day2>dir\par
+ Volume in drive C has no label.\par
+ Volume Serial Number is F4F9-65AB\par
+\par
+ Directory of C:\\ssa4week\\day2\par
+\par
+08/02/2016  10:03 AM    <DIR>          .\par
+08/02/2016  10:03 AM    <DIR>          ..\par
+08/02/2016  10:36 AM               778 example.html\par
+08/02/2016  10:57 AM               743 example.js\par
+               2 File(s)          1,521 bytes\par
+               2 Dir(s)  450,814,410,752 bytes free\par
+\par
+C:\\ssa4week\\day2>git status\par
+On branch master\par
+Your branch is up-to-date with 'origin/master'.\par
+Changes to be committed:\par
+  (use "git reset HEAD <file>..." to unstage)\par
+\par
+        modified:   ../day1/RockPaperScissors.html\par
+        modified:   ../day1/RockPaperScissors.js\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        ./\par
+\par
+\par
+C:\\ssa4week\\day2>git push origin master\par
+Everything up-to-date\par
+\par
+C:\\ssa4week\\day2>cd..\par
+\par
+C:\\ssa4week>git push origin master\par
+Everything up-to-date\par
+\par
+C:\\ssa4week>type nul > example3.html\par
+\par
+C:\\ssa4week>cd day2\par
+\par
+C:\\ssa4week\\day2>type nul > example3.html\par
+\par
+C:\\ssa4week\\day2>cd..\par
+\par
+C:\\ssa4week>cd day1\par
+\par
+C:\\ssa4week\\day1>git add ..\par
+\par
+C:\\ssa4week\\day1>cd\\\par
+\par
+C:\\>cd ssa4week\par
+\par
+C:\\ssa4week>git status\par
+On branch master\par
+Your branch is up-to-date with 'origin/master'.\par
+Changes to be committed:\par
+  (use "git reset HEAD <file>..." to unstage)\par
+\par
+        modified:   day1/RockPaperScissors.html\par
+        modified:   day1/RockPaperScissors.js\par
+        new file:   day2/example.html\par
+        new file:   day2/example.js\par
+        new file:   day2/example2.html\par
+        new file:   day2/example3.html\par
+\par
+\par
+C:\\ssa4week>git status\par
+On branch master\par
+Your branch is up-to-date with 'origin/master'.\par
+Changes to be committed:\par
+  (use "git reset HEAD <file>..." to unstage)\par
+\par
+        modified:   day1/RockPaperScissors.html\par
+        modified:   day1/RockPaperScissors.js\par
+        new file:   day2/example.html\par
+        new file:   day2/example.js\par
+        new file:   day2/example2.html\par
+        new file:   day2/example3.html\par
+\par
+\par
+C:\\ssa4week>git commit -m "Day 2 changes plus some day1 changes"\par
+[master 65a557c] Day 2 changes plus some day1 changes\par
+ 6 files changed, 252 insertions(+), 25 deletions(-)\par
+ create mode 100644 day2/example.html\par
+ create mode 100644 day2/example.js\par
+ create mode s100644 day2/example2.html\par
+ create mode 100644 day2/example3.html\par
+\par
+C:\\ssa4week>git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 1 commit.\par
+  (use "git push" to publish your local commits)\par
+nothing to commit, working tree clean\par
+\par
+C:\\ssa4week>git push\par
+Counting objects: 10, done.\par
+Delta compression using up to 8 threads.\par
+Compressing objects: 100% (10/10), done.\par
+Writing objects: 100% (10/10), 2.49 KiB | 0 bytes/s, done.\par
+Total 10 (delta 2), reused 0 (delta 0)\par
+To {\field{\*\fldinst{HYPERLINK "https://github.com/abumuinuddin/ssa4week.git"}}{\fldrslt{\ul\cf3 https://github.com/abumuinuddin/ssa4week.git}}}\f0\fs22\par
+   189db2f..65a557c  master -> master\par
+\par
+C:\\ssa4week>git status\par
+On branch master\par
+Your branch is up-to-date with 'origin/master'.\par
+\par
+C:\\ssa4week>git push origin  master\par
+Everything up-to-date\par
+\par
+C:\\ssa4week>\par
+August 5th, 2016\par
+\par
+Logon to \par
+github.com\par
+}
+ 
